@@ -11,6 +11,7 @@ export class Router {
 
     window.history.pushState({}, "", event.target.href);
 
+    console.log(event.target.href);
     this.handle();
   }
 
@@ -24,7 +25,7 @@ export class Router {
         document.getElementById("app").innerHTML = html;
       });
 
-    console.log(pathname);
-    console.log(route);
+    // console.log(pathname);
+    // console.log(route);
   }
 }
