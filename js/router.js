@@ -10,6 +10,9 @@ export class Router {
     event.preventDefault();
 
     window.history.pushState({}, "", event.target.href);
+    if (event.target.href === undefined) {
+      window.history.pushState({}, "", (event.target.href = button.href));
+    }
 
     console.log(event.target.href);
     this.handle();
