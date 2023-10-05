@@ -25,7 +25,7 @@
 /* MOBILE CSS */
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
 
   font-size: 1.6rem;
 
@@ -117,4 +117,26 @@ p {
   font-weight: normal;
 
   margin-top: 1.6rem;
+}
+
+/* DESKTOP */
+
+@media (min-width: 769px) {
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/bg-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* height: 100vh; */
+  }
+
+  nav {
+    justify-content: flex-start;
+    gap: 3.2rem;
+
+    margin-left: 7.2rem;
+  }
 }
