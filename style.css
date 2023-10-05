@@ -49,6 +49,12 @@ nav a {
   color: var(--color-text-navDesactive);
 }
 
+/* .active {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+} */
+
 #app {
   /* display: flex; */
   /* flex-direction: column; */

@@ -14,7 +14,7 @@ export class Router {
       window.history.pushState({}, "", (event.target.href = button.href));
     }
 
-    console.log(event.target.href);
+    // console.log(event.target.href);
     this.handle();
   }
 
