@@ -139,4 +139,9 @@ p {
 
     margin-left: 7.2rem;
   }
+
+  h1,
+  h1#home {
+    font-size: 4.8rem;
+  }
 }
